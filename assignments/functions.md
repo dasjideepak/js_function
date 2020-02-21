@@ -72,7 +72,7 @@ if (checkAge(age)) {
   
   ```js
   function checkAge(age) {
-    (age > 18) ? true : confirm("Did parents allow you?");
+    return (age > 18) ? true : confirm("Did parents allow you?");
   }
     var age = +prompt("Enter your age");
     checkAge(age) ? alert("Access Granted") : alert("Access Denied");
@@ -82,10 +82,10 @@ if (checkAge(age)) {
   
   ```js
   function checkAge(age) {
-    (age>18) ? (true || confirm("Did parents allow you?"));
+    return (age>18) ? true || confirm("Did parents allow you?");
   }
     var age = +prompt("Enter your age");
-    checkAge(age) ? (alert("Access Granted") || alert("Access Denied"));
+    checkAge(age) ? alert("Access Granted") || alert("Access Denied");
   ```
   
   Will the function work differently if else is removed like below?
@@ -155,7 +155,7 @@ else if (choice == 'product' || choice == 'Product' || choice == 'PRODUCT') {
 ```js
 var n = +prompt("Enter the Number");
 var result = n;
-for (let i = 1; i < n; i++)
+for (let i = 1; i <= n; i++)
 {
   result += i;
 }
@@ -166,12 +166,14 @@ alert(result);
 
 ```js
 var n = +prompt("Enter the Number");
-var result = n;
-for (let i = 1; i < n; i++)
+var result = 0;
+for (let i = 1; i <= n; i++)
 {
-  result += i;
+  if (i % 5 == 0  || i % 7 == 0) {
+    result += i;
+  }
 }
-alert(result);
+console.log(result);
 ```
 
 8. 🎖Write a function `min` that takes two arguments and returns their minimum.

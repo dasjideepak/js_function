@@ -260,32 +260,72 @@ Square(2, 4);
  */
 
 //Function Decleration
-function MOper(x, y) {
-  let quotient = x + y;
-
-  return alert(x+ " + " +y " = " +result \n );
+function MOper(operator, x, y) {
+  switch (operator) {
+    case "+":
+    result = x + y;  
+    break;
+    case "-":
+    result = x - y;  
+    break;
+    case "*":
+    result = x * y;  
+    break;
+    case "/":
+    result = x / y;  
+    break;
+    default:
+    result = "Please Try Again";
+  }
+  return result;
 };
 
 // Function Expression
-let MOper = function(x, y) {
-  let quotient = x / y;
-  return quotient;
+let MOper = function(operator, x, y) {
+  switch (operator) {
+    case "+":
+    result = x + y;  
+    break;
+    case "-":
+    result = x - y;  
+    break;
+    case "*":
+    result = x * y;  
+    break;
+    case "/":
+    result = x / y;  
+    break;
+    default:
+    result = "Please Try Again";
+  }
+  return result;
 };
 
-// Arrow Function
-let MOper = (x , y) => (x / y);
-
 // Arrow Function With Curly Bracket
-let MOper = (x, y) => {
-  quotient = x / y;
-  return quotient;
+let MOper = (operator, x, y) => {
+  switch (operator) {
+    case "+":
+    result = x + y;  
+    break;
+    case "-":
+    result = x - y;  
+    break;
+    case "*":
+    result = x * y;  
+    break;
+    case "/":
+    result = x / y;  
+    break;
+    default:
+    result = "Please Try Again";
+  }
+  return result;
 };
 
 // Function Invocation
-MOper(2, 4);
+MOper("+", 8, 4)
 
  
-
 /**
  * Returns true if `a` is greater than `b`.
  * @param {number} a
@@ -601,6 +641,8 @@ function Grade(n ,mm) {
     case (per <= 59 && per >= 0):
       return "E";
       break;   
+    default:
+      return "Please Try Again"  
   }
 };
 
@@ -623,6 +665,8 @@ let Grade = function(n, mm) {
     case (per <= 59 && per >= 0):
       return "E";
       break;   
+    default:
+      return "Please Try Again"  
   }
 };
 
@@ -646,6 +690,8 @@ let Grade = (n, mm) => {
     case (per <= 59 && per >= 0):
       return "E";
       break;   
+    default:
+      return "Please Try Again"  
   }
 };
 
