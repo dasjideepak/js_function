@@ -82,7 +82,7 @@ if (checkAge(age)) {
   
   ```js
   function checkAge(age) {
-    return (age>18) ? true || confirm("Did parents allow you?");
+    return (age > 18) ? true || confirm("Did parents allow you?");
   }
     var age = +prompt("Enter your age");
     checkAge(age) ? alert("Access Granted") || alert("Access Denied");
