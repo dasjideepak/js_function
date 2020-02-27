@@ -43,26 +43,26 @@ convertToString(21); // "21"
  */
 
 //Function Decleration
-function AddOne(n) {
+function addOne(n) {
   return n + 1;
 }
 
 // Function Expression
-let AddOne = function(n) {
+let addOne = function(n) {
   return n + 1;
 };
 
 // Arrow Function
-let AddOne = n => n + 1;
+let addOne = n => n + 1;
 
 // Arrow Function With Curly Bracket
 
-let AddOne = n => {
+let addOne = n => {
   return n + 1;
 };
 
 // Function Invocation
-AddOne(21);
+addOne(21);
 
 
 /**
@@ -72,25 +72,25 @@ AddOne(21);
  */
 
 //Function Decleration
-function SubOne(n) {
+function subOne(n) {
   return n - 1;
 }
 
 // Function Expression
-let SubOne = function(n) {
+let subOne = function(n) {
   return n - 1;
 };
 
 // Arrow Function
-let SubOne = n => n - 1;
+let subOne = n => n - 1;
 
 // Arrow Function With Curly Bracke
-let SubOne = n => {
+let subOne = n => {
   return n - 1;
 };
 
 // Function Invocation
-SubOne(21);
+subOne(21);
 
 /**
  * Adds two numbers.
@@ -100,28 +100,28 @@ SubOne(21);
  */
 
 //Function Decleration
-function AddTwo(x, y) {
+function addTwo(x, y) {
   let sum = x + y;
   return sum;
 };
 
 // Function Expression
-let AddTwo = function(x, y) {
+let addTwo = function(x, y) {
   let sum = x + y;
   return sum;
 };
 
 // Arrow Function
-let AddTwo = (x , y) => (x + y);
+let addTwo = (x , y) => (x + y);
 
 // Arrow Function With Curly Bracket
-let AddTwo = (x, y) => {
+let addTwo = (x, y) => {
   sum = x + y;
   return sum;
 };
 
 // Function Invocation
-AddTwo(2, 4);
+addTwo(2, 4);
 
 
 /**
@@ -132,28 +132,28 @@ AddTwo(2, 4);
  */
 
 //Function Decleration
-function Subtr(x, y) {
+function subtr(x, y) {
   let difference = x - y;
   return difference;
 };
 
 // Function Expression
-let Subtr = function(x, y) {
+let subtr = function(x, y) {
   let difference = x - y;
   return difference;
 };
 
 // Arrow Function
-let Subtr = (x , y) => (x - y);
+let subtr = (x , y) => (x - y);
 
 // Arrow Function With Curly Bracket
-let Subtr = (x, y) => {
+let subtr = (x, y) => {
   difference = x - y;
   return difference;
 };
 
 // Function Invocation
-Subtr(2, 4);
+subtr(2, 4);
 
 
 /**
@@ -164,28 +164,28 @@ Subtr(2, 4);
  */
 
 //Function Decleration
-function MulTwo(x, y) {
+function mulTwo(x, y) {
   let product = x * y;
   return product;
 };
 
 // Function Expression
-let MulTwo = function(x, y) {
+let mulTwo = function(x, y) {
   let product = x * y;
   return product;
 };
 
 // Arrow Function
-let MulTwo = (x , y) => (x * y);
+let mulTwo = (x , y) => (x * y);
 
 // Arrow Function With Curly Bracket
-let MulTwo = (x, y) => {
+let mulTwo = (x, y) => {
   product = x * y;
   return product;
 };
 
 // Function Invocation
-MulTwo(2, 4);
+mulTwo(2, 4);
 
 /**
  * Divides the first number by the second.
@@ -195,28 +195,28 @@ MulTwo(2, 4);
  */
 
 //Function Decleration
-function Divide(x, y) {
+function divide(x, y) {
   let quotient = x / y;
   return quotient;
 };
 
 // Function Expression
-let Divide = function(x, y) {
+let divide = function(x, y) {
   let quotient = x / y;
   return quotient;
 };
 
 // Arrow Function
-let Divide = (x , y) => (x / y);
+let divide = (x , y) => (x / y);
 
 // Arrow Function With Curly Bracket
-let Divide = (x, y) => {
+let divide = (x, y) => {
   quotient = x / y;
   return quotient;
 };
 
 // Function Invocation
-Divide(2, 4);
+divide(2, 4);
 
 
 /**
@@ -226,28 +226,28 @@ Divide(2, 4);
  */
 
 //Function Decleration
-function Square(x) {
+function square(x) {
   let squared = x * x;
   return squared;
 };
 
 // Function Expression
-let Square = function(x) {
+let square = function(x) {
   let squared = x * x;
   return squared;
 };
 
 // Arrow Function
-let Square = (x) => (x * x);
+let square = (x) => (x * x);
 
 // Arrow Function With Curlx Bracket
-let Square = (x) => {
+let square = (x) => {
   squared = x * x;
   return squared;
 };
 
 // Function Invocation
-Square(2, 4);
+square(2, 4);
 
 
 /**
@@ -260,7 +260,7 @@ Square(2, 4);
  */
 
 //Function Decleration
-function MOper(operator, x, y) {
+function mOper(operator, x, y) {
   switch (operator) {
     case "+":
     result = x + y;  
@@ -281,7 +281,7 @@ function MOper(operator, x, y) {
 };
 
 // Function Expression
-let MOper = function(operator, x, y) {
+let mOper = function(operator, x, y) {
   switch (operator) {
     case "+":
     result = x + y;  
@@ -302,7 +302,7 @@ let MOper = function(operator, x, y) {
 };
 
 // Arrow Function With Curly Bracket
-let MOper = (operator, x, y) => {
+let mOper = (operator, x, y) => {
   switch (operator) {
     case "+":
     result = x + y;  
@@ -323,7 +323,7 @@ let MOper = (operator, x, y) => {
 };
 
 // Function Invocation
-MOper("+", 8, 4)
+mOper("+", 8, 4)
 
  
 /**
@@ -334,7 +334,7 @@ MOper("+", 8, 4)
  */
 
 //Function Decleration
-function GreaterCheck(a, b) {
+function greaterCheck(a, b) {
   if (a > b) { 
     return true; 
   } else  {
@@ -343,7 +343,7 @@ function GreaterCheck(a, b) {
 };
 
 // Function Expression
-let GreaterCheck = function(a, b) {
+let greaterCheck = function(a, b) {
   if (a > b) { 
     return true; 
   } else  {
@@ -352,10 +352,10 @@ let GreaterCheck = function(a, b) {
 };
 
 // Arrow Function
-let GreaterCheck = (a , b) => (a > b) ? true : false;
+let greaterCheck = (a , b) => (a > b) ? true : false;
 
 // Arrow Function With Curly Bracket
-let GreaterCheck = (a, b) => {
+let greaterCheck = (a, b) => {
   if (a > b) { 
     return true; 
   } else  {
@@ -364,7 +364,7 @@ let GreaterCheck = (a, b) => {
 };
 
 // Function Invocation
-GreaterCheck(2, 4);
+greaterCheck(2, 4);
 
 
 /**
@@ -375,7 +375,7 @@ GreaterCheck(2, 4);
  */
 
 //Function Decleration
-function SmallerCheck(a, b) {
+function smallerCheck(a, b) {
   if (a < b) { 
     return true; 
   } else  {
@@ -384,7 +384,7 @@ function SmallerCheck(a, b) {
 };
 
 // Function Expression
-let SmallerCheck = function(a, b) {
+let smallerCheck = function(a, b) {
   if (a < b) { 
     return true; 
   } else  {
@@ -393,10 +393,10 @@ let SmallerCheck = function(a, b) {
 };
 
 // Arrow Function
-let SmallerCheck = (a , b) => (a < b) ? true : false;
+let smallerCheck = (a , b) => (a < b) ? true : false;
 
 // Arrow Function With Curly Bracket
-let SmallerCheck = (a, b) => {
+let smallerCheck = (a, b) => {
   if (a < b) { 
     return true; 
   } else  {
@@ -405,7 +405,7 @@ let SmallerCheck = (a, b) => {
 };
 
 // Function Invocation
-SmallerCheck(2, 4);
+smallerCheck(2, 4);
 
 
 /**
@@ -455,7 +455,7 @@ equalCheck(2, 4);
  */
 
  //Function Decleration
-function SmallerValueCh(a, b) {
+function smallerValueCh(a, b) {
   if (a > b) { 
     return b+ " is the smallest number"; 
   } else  {
@@ -464,7 +464,7 @@ function SmallerValueCh(a, b) {
 };
 
 // Function Expression
-let SmallerValueCh = function(a, b) {
+let smallerValueCh = function(a, b) {
   if (a > b) { 
     return b+ " is the smallest number"; 
   } else  {
@@ -473,10 +473,10 @@ let SmallerValueCh = function(a, b) {
 };
 
 // Arrow Function
-let SmallerValueCh = (a , b) => (a > b) ? b+ " is the smallest number" : a+ " is the smallest number";
+let smallerValueCh = (a , b) => (a > b) ? b+ " is the smallest number" : a+ " is the smallest number";
 
 // Arrow Function With Curly Bracket
-let SmallerValueCh = (a, b) => {
+let smallerValueCh = (a, b) => {
   if (a > b) { 
     return b+ " is the smallest number"; 
   } else  {
@@ -485,7 +485,7 @@ let SmallerValueCh = (a, b) => {
 };
 
 // Function Invocation
-SmallerValueCh(2, 4);
+smallerValueCh(2, 4);
 
 
 /**
@@ -496,7 +496,7 @@ SmallerValueCh(2, 4);
  */
 
  //Function Decleration
- function LargerValueCh(a, b) {
+ function largerValueCh(a, b) {
   if (a > b) { 
     return a+ " is the largest number"; 
   } else  {
@@ -505,7 +505,7 @@ SmallerValueCh(2, 4);
 };
 
 // Function Expression
-let LargerValueCh = function(a, b) {
+let largerValueCh = function(a, b) {
   if (a > b) { 
     return a+ " is the largest number"; 
   } else  {
@@ -514,10 +514,10 @@ let LargerValueCh = function(a, b) {
 };
 
 // Arrow Function
-let LargerValueCh = (a , b) => (a > b) ? a+ " is the largest number" : b+ " is the largest number";
+let largerValueCh = (a , b) => (a > b) ? a+ " is the largest number" : b+ " is the largest number";
 
 // Arrow Function With Curly Bracket
-let LargerValueCh = (a, b) => {
+let largerValueCh = (a, b) => {
   if (a > b) { 
     return a+ " is the largest number"; 
   } else  {
@@ -526,7 +526,7 @@ let LargerValueCh = (a, b) => {
 };
 
 // Function Invocation
-LargerValueCh(2, 4);
+largerValueCh(2, 4);
 
 
 
@@ -537,7 +537,7 @@ LargerValueCh(2, 4);
  */
 
  //Function Decleration
- function EvenCh(n) {
+ function evenCh(n) {
   if (n % 2 == 0) { 
     return true; 
   } else  {
@@ -546,7 +546,7 @@ LargerValueCh(2, 4);
 };
 
 // Function Expression
-let EvenCh = function(n) {
+let evenCh = function(n) {
   if (n % 2 == 0) { 
     return true; 
   } else  {
@@ -555,10 +555,10 @@ let EvenCh = function(n) {
 };
 
 // Arrow Function
-let EvenCh = (n) => (n % 2 == 0) ? true : false;
+let evenCh = (n) => (n % 2 == 0) ? true : false;
 
 // Arrow Function With Curly Bracket
-let EvenCh = (n) => {
+let evenCh = (n) => {
   if (n % 2 == 0) { 
     return true; 
   } else  {
@@ -567,7 +567,7 @@ let EvenCh = (n) => {
 };
 
 // Function Invocation
-EvenCh(2);
+evenCh(2);
 
 
 /**
@@ -577,7 +577,7 @@ EvenCh(2);
  */
  
  //Function Decleration
- function Odd(n) {
+ function odd(n) {
   if (n % 2 == 0) { 
     return false; 
   } else  {
@@ -586,7 +586,7 @@ EvenCh(2);
 };
 
 // Function Expression
-let Odd = function(n) {
+let odd = function(n) {
   if (n % 2 == 0) { 
     return false; 
   } else  {
@@ -595,10 +595,10 @@ let Odd = function(n) {
 };
 
 // Arrow Function
-let Odd = (n) => (n % 2 == 0) ? false : true;
+let odd = (n) => (n % 2 == 0) ? false : true;
 
 // Arrow Function With Curly Bracket
-let Odd = (n) => {
+let odd = (n) => {
   if (n % 2 == 0) { 
     return false; 
   } else  {
@@ -607,7 +607,7 @@ let Odd = (n) => {
 };
 
 // Function Invocation
-Odd(2);
+odd(2);
 
 /**
  * Returns a letter grade.
@@ -622,7 +622,7 @@ Odd(2);
  */
 
 //Function Decleration
-function Grade(n ,mm) {
+function grade(n ,mm) {
   var per =  (n / mm) * 100;
   
   switch(true) {
@@ -647,7 +647,7 @@ function Grade(n ,mm) {
 };
 
 // Function Expression
-let Grade = function(n, mm) {
+let grade = function(n, mm) {
   var per =  (n / mm) * 100;
   switch(true) {
     case (per <= 100 && per >= 90):
@@ -671,7 +671,7 @@ let Grade = function(n, mm) {
 };
 
 // Arrow Function With Curly Bracket
-let Grade = (n, mm) => {
+let grade = (n, mm) => {
   var per =  (n / mm) * 100;
   
   switch(true) {
@@ -696,7 +696,7 @@ let Grade = (n, mm) => {
 };
 
 // Function Invocation
-Grade(50, 100);
+grade(50, 100);
 
 
 /**
@@ -707,28 +707,28 @@ Grade(50, 100);
  */
 
 //Function Decleration
-function AddTwoString(x, y) {
+function addTwoString(x, y) {
   let joined = x + " " + y;
   return joined;
 };
 
 // Function Expression
-let AddTwoString = function(x, y) {
+let addTwoString = function(x, y) {
   let joined = x + " " + y;
   return joined;
 };
 
 // Arrow Function
-let AddTwoString = (x , y) => (x + " " + y);
+let addTwoString = (x , y) => (x + " " + y);
 
 // Arrow Function With Curly Bracket
-let AddTwoString = (x, y) => {
+let addTwoString = (x, y) => {
   joined = x + " " + y;
   return joined;
 };
 
 // Function Invocation
-AddTwoString("Deepak", "Sharma");
+addTwoString("Deepak", "Sharma");
 
 
 
